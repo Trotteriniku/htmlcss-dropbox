@@ -5,17 +5,164 @@
 }
 
 :root {
-	--color-bg-hero: #b8d1e5;
-	--color-bg-footer: #000000;
-	--color-bg-main: #ffffff;
-	--color-box-8: #ffd830;
-	--color-box-7: #0d2481;
-	--color-box-6: #ff1c1c;
-	--color-box-5: #0093ce;
-	--color-box-4: #b4d0e7;
-	--color-box-3: #d5001f;
-	--color-box-2: #61082b;
-	--color-box-1: #a2d39b;
-	--color-bg-bottom: #0061ff;
-	--color-box-big: #f5f5f5;
+    --color-bg-hero: #b8d1e5;
+    --color-bg-footer: #000000;
+    --color-bg-main: #ffffff;
+    --color-box-8: #ffd830;
+    --color-box-7: #0d2481;
+    --color-box-6: #ff1c1c;
+    --color-box-5: #0093ce;
+    --color-box-4: #b4d0e7;
+    --color-box-3: #d5001f;
+    --color-box-2: #61082b;
+    --color-box-1: #a2d39b;
+    --color-bg-bottom: #0061ff;
+    --color-box-big: #f5f5f5;
 }
+
+
+/* UTILITY */
+ul{
+	list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+	padding: 5px;
+}
+
+.container-small{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 5px;
+}
+.debug{
+    border: 1px solid black;
+}
+
+
+.flexer{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify-between{
+    justify-content: space-between
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-bg-footer);
+}
+
+.a-button{
+    background-color: var(--color-bg-bottom);
+    color: var(--color-bg-main);
+    padding: 8px 15px;
+}
+
+.mb-30{
+	margin-bottom: 30px;
+}
+
+.mb-20{
+	margin-bottom: 20px;
+}
+
+/* UTILITY */
+
+
+/* NAV */
+header{
+	background-color: var(--color-bg-main);
+    position: fixed;
+	z-index: 5000;
+    width: 100%;
+	box-shadow: 1px 1px 3px #666;
+	height: 50px;
+	
+}
+
+nav{
+    padding: 10px;
+    
+}
+
+.nav-content{
+    padding-top: 5px;
+    font-size: 0.8rem;
+}
+
+nav a{
+    padding: 5px 0 0 20px;
+}
+
+#login-button{
+    padding-right: 15px;
+}
+/* NAV */
+
+/* HERO */
+#hero{
+    background-color: var(--color-bg-hero);
+	padding: 0 100px;
+}
+
+#hero .container{
+	padding-top: 50px;
+	position: relative;
+	bottom: -70px;
+}
+#hero img{
+	width: 100%;
+}
+
+h1{
+	font-size: 4.5rem;
+}
+.hero-left{
+	width: 35%;
+}
+
+.hero-right{
+	width: 65%;
+}
+/* HERO */
+
+/* FOOTER */
+footer{
+	background-color: var(--color-bg-footer);
+	color: var(--color-bg-main);
+	padding: 30px 100px;
+}
+
+footer li{
+	margin-bottom: 10px;
+}
+
+footer a{
+	color: var(--color-bg-main);
+}
+
+hr{
+	border-color: var(--color-bg-main);
+	width: 100px;
+}
+
+.pt-10{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+/* FOOTER */
