@@ -118,6 +118,7 @@ nav a{
 #hero{
     background-color: var(--color-bg-hero);
 	padding: 0 100px;
+	margin-bottom: 150px;
 }
 
 #hero .container{
@@ -140,6 +141,24 @@ h1{
 	width: 65%;
 }
 /* HERO */
+
+/* BUSINESS */
+h2{
+	font-size: 2.5rem;
+}
+
+
+/* BUSINESS */
+#business{
+	padding: 0 100px;
+}
+/* BUSINESS */
+
+
+
+
+
+
 
 /* FOOTER */
 footer{
