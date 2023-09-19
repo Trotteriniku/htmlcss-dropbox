@@ -299,8 +299,81 @@ label{
 #client-info{
     padding: 0 100px;
 }
-
 /* CLIENT-INFO */
+
+/* BRANDS-BOX */
+.brand-wrapper{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.brand-box{
+    position: relative;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    background-color: var(--color-bg-main);
+}
+
+.brand-box img{
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* BRAND_LEFT */
+.brand-left{
+    
+}
+
+
+#box1{
+    background-color: var(--color-box-1);
+}
+
+#box2{
+    background-color: var(--color-box-2);
+}
+
+#box3{
+    background-color: var(--color-box-5);
+}
+
+#box4{
+    background-color: var(--color-box-6);
+}
+/* BRAND_LEFT */
+
+.brand-center{
+    padding: 30px;
+    overflow-y: auto;
+}
+
+/* BRAND_RIGHT */
+.brand-right{
+
+}
+
+
+#box5{
+    background-color: var(--color-box-4);
+}
+
+#box6{
+    background-color: var(--color-box-6);
+}
+
+#box7{
+    background-color: var(--color-box-7);
+}
+
+#box8{
+    background-color: var(--color-box-8);
+}
+/* BRAND_RIGHT */
+
+/* BRANDS-BOX */
 
 
 
