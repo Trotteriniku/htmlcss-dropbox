@@ -1,3 +1,29 @@
+
+html {
+	scrollbar-color: var(--color-bg-bottom);
+	scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-bg-bottom);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -62,6 +88,11 @@ ul{
     align-content: center;
 }
 
+.align-baseline{
+    align-items: baseline;
+    align-content: baseline;
+}
+
 a{
     text-decoration: none;
     color: var(--color-bg-footer);
@@ -70,6 +101,7 @@ a{
 .a-button{
     background-color: var(--color-bg-bottom);
     color: var(--color-bg-main);
+    border: 1px solid var(--color-bg-bottom);
     padding: 8px 15px;
 }
 
@@ -81,6 +113,17 @@ a{
 	margin-bottom: 20px;
 }
 
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
 /* UTILITY */
 
 
@@ -92,12 +135,12 @@ header{
     width: 100%;
 	box-shadow: 1px 1px 3px #666;
 	height: 50px;
-	
+
 }
 
 nav{
     padding: 10px;
-    
+
 }
 
 .nav-content{
@@ -143,16 +186,94 @@ h1{
 /* HERO */
 
 /* BUSINESS */
-h2{
-	font-size: 2.5rem;
+.h2-font-size{
+    font-size: 2.5rem;
 }
 
+label{
+    margin-right: 20pxx;
+}
 
-/* BUSINESS */
 #business{
 	padding: 0 100px;
 }
+
+.plan{
+    width: 30%;
+    border: 1px solid #666;
+}
+
+.plan-header{
+    text-align: center;
+    border-bottom:  1px solid #666;
+    padding: 10px 0;
+}
+
+.plan-content{
+    padding: 15px;
+}
+
+.enterprise{
+    border: 1px solid black;
+}
+
+.icon-space{
+    text-indent: -0.5em;
+    margin: 15px;
+}
+
+.icon-space-2{
+    text-indent: -0.4em;
+    margin: 10px;
+}
+
+.a-normal{
+    text-decoration: underline;
+    color: blue;
+}
+
+.hr-width{
+    width: 50px;
+}
+
+.check-mark{
+    color: blue;
+}
+
+.enterprise-left{
+    width: 90%;
+}
+.enterprise-right{
+    width: 30%;
+}
 /* BUSINESS */
+
+/* PARTNER */
+#find-partner{
+    padding: 0 100px;
+}
+#find-partner img{
+    width: 100%;
+    display: block;
+}
+
+.wid-50{
+    width: 50%;
+}
+
+.partner-content{
+    padding: 40px;
+}
+
+.a-emptybutton{
+    background-color: var(--color-bg-main);
+    color: var(--color-bg-footer);
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+/* PARTNER */
+
+
 
 
 
@@ -161,6 +282,7 @@ h2{
 
 
 /* FOOTER */
+
 footer{
 	background-color: var(--color-bg-footer);
 	color: var(--color-bg-main);
