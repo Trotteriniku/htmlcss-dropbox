@@ -292,10 +292,15 @@ label{
 .box{
     width: calc(100% / 3 - 25px );
     margin-right: 25px;
+}
+/* FEATURES */
 
+/* CLIENT-INFO */
+#client-info{
+    padding: 0 100px;
 }
 
-/* FEATURES */
+/* CLIENT-INFO */
 
 
 
