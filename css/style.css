@@ -93,6 +93,9 @@ ul{
     align-content: baseline;
 }
 
+.justify-end{
+    justify-content: flex-end;
+}
 a{
     text-decoration: none;
     color: var(--color-bg-footer);
@@ -305,16 +308,14 @@ label{
 .brand-wrapper{
     width: calc(100% / 3);
     height: calc(100vw / 3);
+    background-color: var(--color-box-big);
 }
-
 .brand-box{
     position: relative;
-    border: 1px solid black;
     width: 50%;
     height: 50%;
-    background-color: var(--color-bg-main);
+    background-color: var(--color-box-big);
 }
-
 .brand-box img{
     filter: invert(100%);
     position: absolute;
@@ -344,12 +345,10 @@ label{
     background-color: var(--color-box-6);
 }
 /* BRAND_LEFT */
-
 .brand-center{
     padding: 30px;
     overflow-y: auto;
 }
-
 /* BRAND_RIGHT */
 .brand-right{
 
@@ -372,8 +371,27 @@ label{
     background-color: var(--color-box-8);
 }
 /* BRAND_RIGHT */
-
 /* BRANDS-BOX */
+
+/* FREE_TRY */
+#free-try{
+    background-color: var(--color-box-4);
+    color: var(--color-box-2);
+    padding: 70px;
+}
+#free-try .container-small{
+    padding: 0 100px;
+}
+#free-try a{
+    border: none;
+}
+/* FREE_TRY */
+
+
+#summery{
+    padding: 0 100px;
+}
+
 
 
 
@@ -399,10 +417,7 @@ footer a{
 	color: var(--color-bg-main);
 }
 
-hr{
-	border-color: var(--color-bg-main);
-	width: 100px;
-}
+
 
 .pt-10{
 	padding-top: 5px;
