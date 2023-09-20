@@ -370,6 +370,7 @@ label{
 #box8{
     background-color: var(--color-box-8);
 }
+
 /* BRAND_RIGHT */
 /* BRANDS-BOX */
 
@@ -387,12 +388,23 @@ label{
 }
 /* FREE_TRY */
 
-
+/* FAQ */
 #summery{
     padding: 0 100px;
 }
+/* FAQ */
 
+.a-button:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--color-box-7);
+    transform: translateY(-0.25em);
+    background-color: #0062ffdd;
+}
 
+.a-emptybutton:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em #666;
+    transform: translateY(-0.25em);
+    background-color: #d6d6d6a4;
+}
 
 
 
